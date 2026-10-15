@@ -6,6 +6,7 @@ permalink: /talks/2025-nevada-geoscience-symposium
 venue: "First Annual Nevada Geoscience Research Symposium"
 date: 2025-04-25
 location: "Reno, Nevada"
+excerpt: "I presented my SSA 2025 poster and won the **Eye Catching Science Award**."
 download_url: "/files/Martin_SSA2025_poster.jpg"
 download_label: "Download poster"
 ---
