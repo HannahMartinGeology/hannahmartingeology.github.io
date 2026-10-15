@@ -9,6 +9,14 @@ author_profile: true
 
 <p>Sharing earthquake and volcano science with communities, classrooms, and the media.</p>
 
+<h2 id="press">In the Press</h2>
+<ul class="news-list">
+{% for item in site.data.press %}
+  <li><span class="news-date">{{ item.date | date: "%b %Y" }}</span> <span><strong>{{ item.outlet }}</strong>: <a href="{{ item.url }}">{{ item.title }}</a></span></li>
+{% endfor %}
+</ul>
+
+<h2>Outreach</h2>
 {% assign items = site.outreach | sort: "date" | reverse %}
 <div class="grid__wrapper">
 {% for post in items %}
