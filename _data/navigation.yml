@@ -9,14 +9,12 @@ main:
   - title: "Outreach & Media"
     url: /outreach/
 
-  - title: "Fieldwork"
-    url: /fieldwork/
+  # Fieldwork is hidden for now. To show it again, add these two lines back:
+  # - title: "Fieldwork"
+  #   url: /fieldwork/
 
   - title: "News"
     url: /news/
-
-  - title: "Blog"
-    url: /year-archive/
 
   - title: "CV"
     url: /cv/
