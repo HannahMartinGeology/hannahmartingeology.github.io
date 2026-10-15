@@ -6,4 +6,6 @@ permalink: /talks/2024-auckland-geology-club
 venue: "Auckland Geology Club"
 date: 2024-02-01
 location: "Auckland, New Zealand"
+figure: "/images/talks/auckland-geology-club-2024.jpg"
+figure_caption: "Presenting my Mangatangi Fault research to the Auckland Geology Club."
 ---

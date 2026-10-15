@@ -53,6 +53,12 @@
 .pub-text { flex: 1; min-width: 0; }
 .pub-thumb { flex: 0 0 auto; display: block; }
 .pub-thumb img { display: block; height: 200px; width: auto; max-width: 40vw; object-fit: contain; border: 1px solid #ddd; border-radius: 4px; }
+/* Talk thumbnails: same size as the journal article thumbnail */
+.talk-thumb img { width: 301px; height: 257px; object-fit: cover; }
+.talk-row .archive__item-title { margin-top: 0; }
+.talk-figure { margin: 0 0 1.5em; display: block; }
+.talk-figure img { width: 100%; border-radius: 4px; }
+.talk-figure figcaption { font-family: inherit; font-size: 0.8em; margin-top: 0.4em; }
 @media (max-width: 600px) {
   .pub-row { flex-direction: column; }
   .pub-thumb img { height: auto !important; width: 100%; max-width: 100%; margin-top: 0 !important; }

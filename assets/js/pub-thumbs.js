@@ -2,7 +2,7 @@
 (function () {
   function size() {
     var mobile = window.matchMedia('(max-width: 600px)').matches;
-    document.querySelectorAll('.pub-row').forEach(function (row) {
+    document.querySelectorAll('.pub-row:not(.talk-row)').forEach(function (row) {
       var text = row.querySelector('.pub-text');
       var img = row.querySelector('.pub-thumb img');
       if (!text || !img) return;
