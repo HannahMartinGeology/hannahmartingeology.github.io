@@ -41,9 +41,9 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {% if page.figure %}<figure class="talk-figure"><img src="{{ page.figure | relative_url }}" alt="{{ page.figure_caption | default: page.title | strip_html }}">{% if page.figure_caption %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}</figure>{% endif %}
+        {% if page.figure %}<figure class="talk-figure{% if page.figure_wide %} talk-figure--wide{% endif %}">{% if page.figure_link %}<a href="{{ page.figure_link | relative_url }}">{% endif %}<img src="{{ page.figure | relative_url }}" alt="{{ page.figure_caption | default: page.title | strip_html }}">{% if page.figure_link %}</a>{% endif %}{% if page.figure_caption %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}</figure>{% endif %}
         {{ content }}
-        {% if page.resource_url %}<p><a href="{{ page.resource_url }}" class="btn">{{ page.resource_label | default: "View presentation" }}</a></p>{% endif %}
+        {% if page.resource_url or page.download_url %}<p>{% if page.resource_url %}<a href="{{ page.resource_url }}" class="btn">{{ page.resource_label | default: "View presentation" }}</a>{% endif %} {% if page.download_url %}<a href="{{ page.download_url | relative_url }}" class="btn" download>{{ page.download_label | default: "Download" }}</a>{% endif %}</p>{% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
