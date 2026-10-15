@@ -74,3 +74,27 @@
 @media (max-width: 600px) { .photo-pair { flex-direction: column; } }
 .page__content .photo-pair figure { display: block; }
 .page__content .photo-pair figcaption { font-family: inherit; text-align: center; color: inherit; margin: 0.4em 0 0; }
+
+/* Navy masthead and headings */
+$navy: #041e42;
+.masthead, .greedy-nav, .greedy-nav button,
+.visible-links .masthead__menu-item { background: $navy; }
+.masthead::after { background: $navy; }
+.greedy-nav .visible-links a,
+.greedy-nav .visible-links a:hover,
+.greedy-nav button,
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover { color: #fff; }
+.masthead__menu-item.selected a { border-bottom-color: #fff; }
+.greedy-nav .visible-links a:before { background: rgba(255, 255, 255, 0.5); }
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after { background: #fff; }
+.greedy-nav .hidden-links .masthead__menu-item { background: #fff; }
+.greedy-nav .hidden-links a { color: $navy; }
+
+html:not([data-theme="dark"]) {
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__subtitle, .author__name,
+  .archive__item-title a, .archive__item-title a:visited { color: $navy; }
+}
