@@ -25,7 +25,7 @@
           alt="">
       </div>
     {% endif %}
-    {% if post.figure %}<div class="pub-row talk-row"><div class="pub-text">{% endif %}
+    {% if post.thumbnail %}<div class="pub-row talk-row"><div class="pub-text">{% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -40,6 +40,6 @@
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.resource_url %}<p class="archive__item-excerpt"><a href="{{ post.resource_url }}">{{ post.resource_label | default: "View presentation" }}</a></p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-    {% if post.figure %}</div><a class="pub-thumb talk-thumb" href="{{ base_path }}{{ post.url }}"><img src="{{ post.figure | relative_url }}" alt="{{ post.figure_caption | default: post.title | strip_html }}"></a></div>{% endif %}
+    {% if post.thumbnail %}</div><a class="pub-thumb talk-thumb" href="{{ base_path }}{{ post.url }}"><img src="{{ post.thumbnail | relative_url }}" alt="{{ post.figure_caption | default: post.title | strip_html }}"></a></div>{% endif %}
   </article>
 </div>
