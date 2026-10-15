@@ -2,6 +2,8 @@
 #   date: YYYY-MM-DD   (used for ordering and shown as "Mon YYYY")
 #   when: optional text shown instead of the date, e.g. "2024" if the month is unknown
 #   text: one or two sentences (Markdown links allowed)
+- date: 2026-05-26
+  text: "Published my lead-author paper *Low Hazard–High Risk: A Case Study of the Active Mangatangi Fault*, in the New Zealand Journal of Geology and Geophysics. [Read the paper](https://doi.org/10.1002/jgo2.70060)."
 - date: 2024-12-09
   text: "Joined the Nevada Seismological Laboratory field response to the M5.7 Parker Butte earthquake, deploying temporary seismic stations to record aftershocks. [See the fieldwork](/fieldwork/parker-butte-earthquake-response/)."
 - date: 2024-06-01
