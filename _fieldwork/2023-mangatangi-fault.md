@@ -13,7 +13,7 @@ location: "Hunua Range, South Auckland, New Zealand"
 
 For my M.Sc. at the University of Auckland I investigated the geologically recent activity of the Mangatangi Fault in the Hunua Range, characterising its post-Pliocene dynamics to better understand faulting and seismic hazard in South Auckland.
 
-This work was presented at the Geoscience Society of New Zealand Annual Conference (2023) and the Auckland Geology Club (2024), and is being prepared for publication in the *New Zealand Journal of Geology and Geophysics*.
+This work was presented at the Geoscience Society of New Zealand Annual Conference (2023) and the Auckland Geology Club (2024).
 
 Photos
 ------
