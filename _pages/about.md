@@ -11,7 +11,7 @@ I am a PhD student in the [Nevada Seismological Laboratory](https://www.unr.edu/
 
 Beyond research, I am passionate about public outreach and understanding seismic hazard in order to reduce risk and promote community resilience. Since 2022, I have been involved in numerous media and community outreach activities, inspiring K-12 students and the wider community to engage with the natural hazards we live amongst. In early 2024, I joined the Geoscience Society of New Zealand Executive Committee as the Co-Editor of the *Geoscientist Aotearoa* Magazine where I continue to share the latest geoscience news and findings to the community.
 
-![Hannah in the field]({{ "/images/home-field.jpg" | relative_url }})
+![Hannah at a gravel outcrop in the field]({{ "/images/home-field.jpg" | relative_url }})
 
 Latest news
 ------
