@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Hi, I'm Hannah"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm a PhD student in earthquake geology at the [Nevada Seismological Laboratory](https://www.unr.edu/nsl), University of Nevada, Reno. My research asks **why some faults creep and others don't**, using geomorphic and mineral controls to understand how faults behave and what that means for seismic hazard.
+I am a PhD student in the [Nevada Seismological Laboratory](https://www.unr.edu/nsl) at the University of Nevada, Reno. My research focuses on why some faults creep and others don't using geomorphic and mineral controls.
 
-I'm just as passionate about getting science out of the lab. Since 2022 I've worked on media and community outreach about earthquakes and volcanoes, from K-12 classrooms to virtual field trips, with the goal of reducing seismic risk and building more resilient communities. Since 2024 I've also been Co-Editor of *Geoscientist Aotearoa*, the magazine of the Geoscience Society of New Zealand.
+Beyond research, I am passionate about public outreach and understanding seismic hazard in order to reduce risk and promote community resilience. Since 2022, I have been involved in numerous media and community outreach activities, inspiring K-12 students and the wider community to engage with the natural hazards we live amongst. In early 2024, I joined the Geoscience Society of New Zealand Executive Committee as the Co-Editor of the *Geoscientist Aotearoa* Magazine where I continue to share the latest geoscience news and findings to the community.
 
 ![Hannah in the field]({{ "/images/home-field.jpg" | relative_url }})
 
