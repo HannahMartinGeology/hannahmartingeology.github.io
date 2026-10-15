@@ -48,7 +48,12 @@
 .poster-grid figure { margin: 0; display: block; }
 .poster-grid figcaption { font-family: inherit; font-size: 0.8em; text-align: center; margin-top: 0.4em; }
 
-/* Publication figures */
-.pub-figure { margin: 0.5em 0 1em; max-width: 520px; display: block; }
-.pub-figure img { width: 100%; border: 1px solid #ddd; border-radius: 4px; }
-.pub-figure figcaption { font-family: inherit; font-size: 0.75em; margin-top: 0.3em; }
+/* Publication thumbnails (height matched to the text by assets/js/pub-thumbs.js) */
+.pub-row { display: flex; gap: 1.5em; align-items: flex-start; }
+.pub-text { flex: 1; min-width: 0; }
+.pub-thumb { flex: 0 0 auto; display: block; }
+.pub-thumb img { display: block; height: 200px; width: auto; max-width: 40vw; object-fit: contain; border: 1px solid #ddd; border-radius: 4px; }
+@media (max-width: 600px) {
+  .pub-row { flex-direction: column; }
+  .pub-thumb img { height: auto !important; width: 100%; max-width: 100%; margin-top: 0 !important; }
+}
