@@ -1,0 +1,18 @@
+# News & wins: newest first. Add a new entry at the top for every win.
+#   date: YYYY-MM-DD   (used for ordering and shown as "Mon YYYY")
+#   when: optional text shown instead of the date, e.g. "2024" if the month is unknown
+#   text: one or two sentences (Markdown links allowed)
+- date: 2024-12-09
+  text: "Joined the Nevada Seismological Laboratory field response to the M5.7 Parker Butte earthquake, deploying temporary seismic stations to record aftershocks. [See the fieldwork](/fieldwork/parker-butte-earthquake-response/)."
+- date: 2024-06-01
+  when: "2024"
+  text: "Completed my M.Sc. in Earth Science at the University of Auckland."
+- date: 2024-03-01
+  when: "Early 2024"
+  text: "Joined the Geoscience Society of New Zealand Executive Committee as Co-Editor of *Geoscientist Aotearoa* magazine."
+- date: 2024-02-01
+  when: "2024"
+  text: "Presented my Mangatangi Fault research to the Auckland Geology Club. [All talks](/talks/)."
+- date: 2023-11-01
+  when: "2023"
+  text: "Presented *Characterisation of post-Pliocene dynamics of the Mangatangi Fault* at the Geoscience Society of New Zealand Annual Conference in Wellington."

@@ -1,0 +1,22 @@
+# Top menu. To add, remove or reorder a page, edit this list.
+main:
+  - title: "Research"
+    url: /publications/
+
+  - title: "Fieldwork"
+    url: /fieldwork/
+
+  - title: "Talks & Conferences"
+    url: /talks/
+
+  - title: "Outreach & Media"
+    url: /outreach/
+
+  - title: "News"
+    url: /news/
+
+  - title: "Blog"
+    url: /year-archive/
+
+  - title: "CV"
+    url: /cv/

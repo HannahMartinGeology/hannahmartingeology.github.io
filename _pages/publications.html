@@ -1,0 +1,40 @@
+---
+layout: archive
+title: "Research & Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p>My research focuses on <strong>fault creep</strong>: why some faults slip slowly and steadily while others lock up and rupture in earthquakes. I look at the geomorphic and mineral controls on fault behaviour, and what they mean for seismic hazard. My earlier work at the University of Auckland investigated the Mangatangi Fault in the Hunua Range and Auckland's historic seismicity.</p>
+
+<p>See also my <a href="{{ '/posters/' | relative_url }}">research posters</a> and <a href="{{ '/talks/' | relative_url }}">talks</a>.</p>
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+

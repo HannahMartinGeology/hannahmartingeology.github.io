@@ -1,0 +1,49 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar"
+;
+/* News list */
+.news-list { list-style: none; margin-left: 0; padding-left: 0; }
+.news-list li { display: flex; gap: 1em; margin-bottom: 0.7em; }
+.news-date { flex: 0 0 6.5em; font-weight: bold; color: #5a7d8c; font-size: 0.9em; }
+
+/* Photo grids */
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1em; margin-bottom: 1.5em; }
+.photo-grid img, .poster-grid img { width: 100%; border-radius: 4px; }
+.poster-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5em; }
+.poster-grid figure { margin: 0; display: block; }
+.poster-grid figcaption { font-family: inherit; font-size: 0.8em; text-align: center; margin-top: 0.4em; }

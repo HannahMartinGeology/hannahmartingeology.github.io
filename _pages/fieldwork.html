@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Fieldwork"
+permalink: /fieldwork/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Where the science happens: notes and photos from field campaigns.</p>
+
+{% assign items = site.fieldwork | sort: "date" | reverse %}
+<div class="grid__wrapper">
+{% for post in items %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>

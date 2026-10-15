@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Outreach & Media"
+permalink: /outreach/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Sharing earthquake and volcano science with communities, classrooms, and the media.</p>
+
+{% assign items = site.outreach | sort: "date" | reverse %}
+<div class="grid__wrapper">
+{% for post in items %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>

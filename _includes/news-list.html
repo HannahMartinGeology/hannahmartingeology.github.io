@@ -1,0 +1,7 @@
+{% assign items = site.data.news %}
+{% if include.limit %}{% assign items = site.data.news | slice: 0, include.limit %}{% endif %}
+<ul class="news-list">
+{% for item in items %}
+  <li><span class="news-date">{% if item.when %}{{ item.when }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</span> <span>{{ item.text | markdownify | remove: '<p>' | remove: "</p>" }}</span></li>
+{% endfor %}
+</ul>
