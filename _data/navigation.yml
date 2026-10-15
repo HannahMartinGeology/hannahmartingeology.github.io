@@ -3,14 +3,14 @@ main:
   - title: "Research"
     url: /publications/
 
-  - title: "Fieldwork"
-    url: /fieldwork/
-
   - title: "Talks & Conferences"
     url: /talks/
 
   - title: "Outreach & Media"
     url: /outreach/
+
+  - title: "Fieldwork"
+    url: /fieldwork/
 
   - title: "News"
     url: /news/
