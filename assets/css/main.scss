@@ -56,9 +56,10 @@
 /* Talk thumbnails: same size as the journal article thumbnail */
 .talk-thumb img { width: 200px; height: 160px; object-fit: cover; }
 .talk-row .archive__item-title { margin-top: 0; }
-.talk-figure { margin: 0 0 1.5em; display: block; }
+.talk-figure { margin: 0 auto 1.5em; display: block; max-width: 75%; text-align: center; }
 .talk-figure img { width: 100%; border-radius: 4px; }
-.talk-figure figcaption { font-family: inherit; font-size: 0.8em; margin-top: 0.4em; }
+.talk-figure figcaption { font-family: inherit; font-size: 0.8em; margin-top: 0.4em; text-align: center; }
+@media (max-width: 600px) { .talk-figure { max-width: 100%; } }
 @media (max-width: 600px) {
   .pub-row { flex-direction: column; }
   .pub-thumb img { height: auto !important; width: 100%; max-width: 100%; margin-top: 0 !important; }
