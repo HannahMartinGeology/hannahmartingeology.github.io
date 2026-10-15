@@ -3,7 +3,7 @@
 #   when: optional text shown instead of the date, e.g. "2024" if the month is unknown
 #   text: one or two sentences (Markdown links allowed)
 - date: 2026-05-27
-  text: "My Mangatangi Fault research was covered by 1News, Newstalk ZB, Nautilus, the Franklin Times and the University of Auckland. [See the press coverage](/outreach/#press)."
+  text: "My Mangatangi Fault research was covered by The Guardian, RNZ and the University of Auckland. [See the press coverage](/outreach/#press)."
 - date: 2026-05-26
   text: "Published my lead-author paper *Low Hazard–High Risk: A Case Study of the Active Mangatangi Fault*, in the New Zealand Journal of Geology and Geophysics. [Read the paper](https://doi.org/10.1002/jgo2.70060)."
 - date: 2026-03-05
