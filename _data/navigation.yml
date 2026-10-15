@@ -16,5 +16,6 @@ main:
   - title: "News"
     url: /news/
 
-  - title: "CV"
-    url: /cv/
+  # CV is hidden for now. To show it again, add these two lines back:
+  # - title: "CV"
+  #   url: /cv/
