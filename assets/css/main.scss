@@ -47,3 +47,8 @@
 .poster-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5em; }
 .poster-grid figure { margin: 0; display: block; }
 .poster-grid figcaption { font-family: inherit; font-size: 0.8em; text-align: center; margin-top: 0.4em; }
+
+/* Publication figures */
+.pub-figure { margin: 0.5em 0 1em; max-width: 520px; display: block; }
+.pub-figure img { width: 100%; border: 1px solid #ddd; border-radius: 4px; }
+.pub-figure figcaption { font-family: inherit; font-size: 0.75em; margin-top: 0.3em; }
