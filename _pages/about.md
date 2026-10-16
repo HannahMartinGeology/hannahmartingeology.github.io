@@ -27,6 +27,12 @@ Awards &amp; Grants
 {% endfor %}
 </ul>
 
+Experience
+------
+<ul class="news-list">
+  <li><span class="news-date">Summer 2026</span> <span><strong>Staff Geologist (summer internship)</strong>, Lettis Consultants International (4 months)</span></li>
+</ul>
+
 Education
 ------
 * **PhD, Earthquake Geology** — University of Nevada, Reno *(in progress)*

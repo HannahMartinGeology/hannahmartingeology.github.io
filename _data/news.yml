@@ -2,6 +2,9 @@
 #   date: YYYY-MM-DD   (used for ordering and shown as "Mon YYYY")
 #   when: optional text shown instead of the date, e.g. "2024" if the month is unknown
 #   text: one or two sentences (Markdown links allowed)
+- date: 2026-07-15
+  when: "Summer 2026"
+  text: "Spent four months as a Staff Geologist (summer internship) at Lettis Consultants International."
 - date: 2026-07-01
   when: "Jul 2026"
   text: "Wrote *Do We Really Know Auckland's Earthquake Risk? A Case Study on the Mangatangi Fault* for *Geoscientist Aotearoa*. [Read the article](/outreach/ga-2026-mangatangi-article/)."
