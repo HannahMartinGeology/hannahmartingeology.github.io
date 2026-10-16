@@ -11,6 +11,16 @@ author_profile: true
 
 {% endif %}
 
+<p><a href="#workshops">Jump to Workshops Attended &darr;</a></p>
+
+<h2>Talks &amp; Posters</h2>
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+
+<h2 id="workshops">Workshops Attended</h2>
+<ul class="news-list">
+{% for item in site.data.workshops %}
+  <li><span class="news-date">{{ item.when }}</span> <span><strong>{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</strong>{% if item.detail %}, {{ item.detail | markdownify | remove: '<p>' | remove: "</p>" | strip }}{% endif %}</span></li>
+{% endfor %}
+</ul>

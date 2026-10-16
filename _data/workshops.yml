@@ -1,0 +1,9 @@
+# Workshops attended: newest first. Add new workshops at the top.
+#   when: shown in the date column, e.g. "Mar 2026" or "2025"
+#   name: the workshop name
+#   detail: optional, where it was held and anything else (Markdown links allowed)
+#   url: optional link to the workshop's website
+- when: "Mar 2026"
+  name: "2026 SCEC Fault Creep Workshop"
+  url: "https://www.scec.org/events/2026-fault-creep-workshop/"
+  detail: "San Jose State University, San Jose, California. Gave a lightning talk ([see the talk](/talks/2026-scec-fault-creep-workshop))."
