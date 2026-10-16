@@ -16,4 +16,4 @@ download_label: "Download poster"
   <figure><img src="/images/talks/ngrs-2025-presenting.jpg" alt="Hannah explaining her poster to a visitor"><figcaption>Talking a visitor through my poster.</figcaption></figure>
 </div>
 
-I presented my SSA 2025 poster at the first annual Nevada Geoscience Research Symposium and won the **Eye Catching Science Award**. [See the poster](/talks/2025-ssa-fault-creep).
+I presented my SSA 2025 poster at the first annual Nevada Geoscience Research Symposium and won the **Eye Catching Science Award** for the best graphics and figures. [See the poster](/talks/2025-ssa-fault-creep).
