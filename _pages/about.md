@@ -19,7 +19,7 @@ Latest news
 
 [All news &rarr;](/news/)
 
-Awards
+Awards &amp; Grants
 ------
 <ul class="news-list">
 {% for item in site.data.awards %}
