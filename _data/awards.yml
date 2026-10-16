@@ -1,0 +1,7 @@
+# Awards & honours: newest first. Add new awards at the top.
+#   when: shown in the date column, e.g. "2025" or "Apr 2025"
+#   title: the award name
+#   detail: optional, where it was awarded and what for (Markdown links allowed)
+- when: "Apr 2025"
+  title: "Eye Catching Science Award"
+  detail: "First Annual Nevada Geoscience Research Symposium, Reno, for my poster *Geomorphic characterization of fault creep in the San Francisco Bay Area, California*. [See the poster](/talks/2025-nevada-geoscience-symposium)."

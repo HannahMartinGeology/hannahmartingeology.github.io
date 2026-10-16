@@ -19,6 +19,14 @@ Latest news
 
 [All news &rarr;](/news/)
 
+Awards
+------
+<ul class="news-list">
+{% for item in site.data.awards %}
+  <li><span class="news-date">{{ item.when }}</span> <span><strong>{{ item.title }}</strong>{% if item.detail %}, {{ item.detail | markdownify | remove: '<p>' | remove: "</p>" | strip }}{% endif %}</span></li>
+{% endfor %}
+</ul>
+
 Education
 ------
 * **PhD, Earthquake Geology** — University of Nevada, Reno *(in progress)*
