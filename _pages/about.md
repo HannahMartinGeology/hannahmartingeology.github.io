@@ -30,7 +30,7 @@ Awards &amp; Grants
 Experience
 ------
 <ul class="news-list">
-  <li><span class="news-date">Summer 2026</span> <span><strong>Staff Geologist (summer internship)</strong>, Lettis Consultants International (4 months)</span></li>
+  <li><span class="news-date">Summer 2026</span> <span><strong>Staff Geologist (summer internship)</strong>, Lettis Consultants International (4 months). Worked on numerous projects spanning engineering geology to paleoseismic investigations.</span></li>
 </ul>
 
 Education
