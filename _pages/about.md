@@ -30,5 +30,5 @@ Awards &amp; Grants
 Education
 ------
 * **PhD, Earthquake Geology** — University of Nevada, Reno *(in progress)*
-* **M.Sc., Earth Science** — University of Auckland, 2024
+* **M.Sc. (First Class Honours), Earth Science** — University of Auckland, 2024
 * **B.Sc., Geology and Geography** — University of Otago, 2021
