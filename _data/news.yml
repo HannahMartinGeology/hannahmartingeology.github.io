@@ -3,7 +3,6 @@
 #   when: optional text shown instead of the date, e.g. "2024" if the month is unknown
 #   text: one or two sentences (Markdown links allowed)
 - date: 2026-11-01
-  when: "2026"
   text: "Awarded the University of Auckland Postgraduate Student Research Award for Earth Science, for excellent work and a first-author publication between September 2025 and August 2026."
 - date: 2026-07-15
   when: "Summer 2026"

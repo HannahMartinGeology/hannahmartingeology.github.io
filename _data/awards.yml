@@ -2,7 +2,7 @@
 #   when: shown in the date column, e.g. "2025" or "Apr 2025"
 #   title: the award name
 #   detail: optional, where it was awarded and what for (Markdown links allowed)
-- when: "2026"
+- when: "Nov 2026"
   title: "University of Auckland Postgraduate Student Research Award, Earth Science"
   detail: "for excellent work and a first-author publication between September 2025 and August 2026."
 - when: "2026"
