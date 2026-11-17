@@ -3,6 +3,9 @@
 #   title: the award name
 #   detail: optional, where it was awarded and what for (Markdown links allowed)
 - when: "2026"
+  title: "University of Auckland Postgraduate Student Research Award, Earth Science"
+  detail: "for excellent work and a first-author publication between September 2025 and August 2026."
+- when: "2026"
   title: "Geological Society of America Graduate Student Research Grant"
   detail: "for my project *I'm a Creep, I'm a Microstructure: The textural signature of creep in the Central Calaveras Fault*."
 - when: "Apr 2025"
